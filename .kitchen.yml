@@ -16,3 +16,10 @@ suites:
   includes: [
     'centos-6.5'
   ]
+  attributes:
+    sparrow:
+      plugin:
+        list: [
+            'swat-apache2-cookbook'
+        ]
+

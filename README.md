@@ -8,6 +8,17 @@ Installs [Sparrow](https://github.com/melezhik/sparrow) tool chain
 * perl
 * curl
 
+# USAGE
+
+## Install sparrow
+
+    include_recipe 'saprrow'
+
+## Install sparrow plugins
+
+    node[:default][:sparrow][:plugin][:list] = [ 'swat-apache2-cookbook' ]
+    include_recipe 'saprrow'
+    
 
 # Home page
 
