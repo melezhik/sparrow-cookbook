@@ -1,2 +1,2 @@
-default[:sparrow][:plugin][:list] = []
+default['sparrow']['plugin']['list'] = []
 
