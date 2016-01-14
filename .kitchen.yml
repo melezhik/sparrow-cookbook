@@ -1,0 +1,18 @@
+---
+driver:
+   name: vagrant
+
+provisioner:
+  name: chef_solo
+  require_chef_omnibus: 12.0.3
+
+platforms:
+- name: centos-6.5
+
+suites:
+- name: default
+  run_list:
+  - recipe[sparrow]
+  includes: [
+    'centos-6.5'
+  ]
