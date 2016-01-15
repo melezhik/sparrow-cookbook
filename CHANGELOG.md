@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the sparrow cookbook.
 
+# 0.0.5
+* Long description added
+
 # 0.0.3
 * Small changes to confirm foodcritic
 
