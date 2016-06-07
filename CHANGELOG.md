@@ -2,6 +2,9 @@
 
 This file is used to list changes made in each version of the sparrow cookbook.
 
+# 0.0.7
+* Small correction of README.md
+
 # 0.0.5
 * Long description added
 

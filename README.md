@@ -12,12 +12,12 @@ Installs [Sparrow](https://github.com/melezhik/sparrow) tool chain
 
 ## Install sparrow
 
-    include_recipe 'saprrow'
+    include_recipe 'sparrow'
 
 ## Install sparrow plugins
 
-    node[:default][:sparrow][:plugin][:list] = [ 'swat-apache2-cookbook' ]
-    include_recipe 'saprrow'
+    node[:default][:sparrow][:plugin][:list] = [ 'df-check', 'nginx', 'gitprep' ]
+    include_recipe 'sparrow'
     
 
 # Home page
