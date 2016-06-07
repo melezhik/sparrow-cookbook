@@ -1,8 +1,9 @@
 include_recipe 'perl';
 include_recipe 'build-essential';
+
 package 'curl'
 
-execute "cpanm -q Sparrow"
+execute "cpanm -q Sparrow || cpanm -q Sparrow"
 
 execute "sparrow index update"
 
